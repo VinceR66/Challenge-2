@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightsteelblue;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+header h1 {
+    display: inline-block;
+
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+
+
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    text-align: center;
+}
+
+.aboutme div {
+    height: 250px;
+    flex-basis: 25%;
+    text-align: center;
+    display: inline;
+    border-right: 50px;
+}
+
+.aboutme p {
+    flex-basis: 75%;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(196, 255, 232);
+}
+
+.work div {
+    height: 250px;
+    flex-basis: 25%;
+    display: inline;
+    border-right: 50px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: lightsteelblue;
+    font-size: 20px;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+footer div {
+    padding-left: 15px;
+}
+
+footer nav {
+    padding: 10px;
+}
+
+footer nav ul li {
+    color: black;
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 20px;
+}
+
+a {
+    color: black;
+}
