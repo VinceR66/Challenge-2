@@ -34,9 +34,11 @@ header nav ul li {
     margin-left: 15px;
 }
 
-
-
-
+.info1 {
+    height: 1500 px;
+    width: 100%;
+    background-color: azure;
+}
 
 .aboutme {
     display: flex;
@@ -47,14 +49,15 @@ header nav ul li {
 
 .aboutme div {
     height: 250px;
-    flex-basis: 25%;
+    flex-basis: 20%;
     text-align: center;
     display: inline;
-    border-right: 50px;
 }
 
 .aboutme p {
     flex-basis: 75%;
+    padding-left: 25px;
+    padding-top: 75px;
 }
 
 .work {
@@ -66,10 +69,18 @@ header nav ul li {
 
 .work div {
     height: 250px;
-    flex-basis: 25%;
+    flex-basis: 20%;
     display: inline;
     border-right: 50px;
     text-align: center;
+}
+
+
+
+.info {
+    height: 125px;
+    flex-basis: 100%;
+    color: blue;
 }
 
 footer {
