@@ -45,17 +45,35 @@ header nav ul li {
     flex-wrap: wrap;
     background-color: bisque;
     text-align: center;
+    padding-bottom: 20px;
+
+}
+
+img {
+    border: 25px;
+    border-color: black;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.info img {
+    border: 25px;
+    border-color: black;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
 }
 
 .aboutme div {
-    height: 250px;
+
     flex-basis: 20%;
     text-align: center;
     display: inline;
 }
 
 .aboutme p {
-    flex-basis: 75%;
+    flex-basis: 40%;
     padding-left: 25px;
     padding-top: 75px;
 }
@@ -75,12 +93,15 @@ header nav ul li {
     text-align: center;
 }
 
+#help {}
+
 
 
 .info {
     height: 125px;
     flex-basis: 100%;
     color: blue;
+    display: inline-block;
 }
 
 footer {
