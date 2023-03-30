@@ -4,9 +4,7 @@
     padding: 0px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 header {
     color: black;
@@ -39,7 +37,7 @@ header nav ul li {
 }
 
 .info {
-    height: 1500 px;
+
     width: 100%;
     background-color: lightsteelblue;
 }
@@ -86,7 +84,6 @@ img {
     width: 100%;
     padding: 10px;
     background-color: lightsteelblue;
-    border-radius: 5%;
 }
 
 .primary p {
